@@ -6,6 +6,7 @@ import Dashboard from '../pages/Dashboard';
 import AutoResponse from '../pages/AutoResponse';
 import Customers from '../pages/Customers';
 import Subscriptions from '../pages/Subscriptions';
+import Books from '../pages/Books';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: 'subscriptions',
         element: <Subscriptions />,
+      },
+      {
+        path: 'Books',
+        element: <Books />,
       },
     ],
   },
