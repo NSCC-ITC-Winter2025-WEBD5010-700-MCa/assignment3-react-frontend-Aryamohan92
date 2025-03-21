@@ -9,6 +9,7 @@ import Subscriptions from '../pages/Subscriptions';
 import Books from '../pages/Books';
 import BookCreate from '../components/layouts/books/BookCreate';
 import BookEdit from '../components/layouts/books/bookEdit';
+import BookDetail from '../components/layouts/books/BookDetails';
 
 const router = createBrowserRouter([
   {
@@ -54,7 +55,12 @@ const router = createBrowserRouter([
           {
             path: ':id/edit',
             element: <BookEdit />
+          },
+          {
+            path: ':id/details',
+            element: <BookDetail />
           }
+
         ]
       },
     ],
