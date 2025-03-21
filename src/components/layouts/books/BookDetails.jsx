@@ -1,6 +1,8 @@
 import { useQuery } from "@tanstack/react-query";
 import { useParams, Link } from "react-router-dom";
 
+
+
 const BookDetail = ({ book }) => {
   const { id } = useParams(); // Get book ID from URL
 
